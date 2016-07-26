@@ -8,13 +8,13 @@ This directory would contain the source code for your LLVM passes. Each person s
 
 ##### build
 
-The llvm passes are built as shared objects (.so files). These files should be built by your label in the Makefile under the 'build' directory.
+The llvm passes are built as shared objects (.so files). These files should be built by your label in the Makefile under the 'build' directory. The shared objects need to be run with the 'opt' tool
 
 ##### Makefile
 
-Single project wide Makefile to build your llvm passes. Use separate labels for your passes.
+Single project wide Makefile; use separate labels to build your llvm passes.
 
 ##### docs
 
-Add information about each individual person's update and some documentation about the code written and run instructions.
+Add documentation for the code along with run instructions.
 
